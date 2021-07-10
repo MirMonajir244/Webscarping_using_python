@@ -31,4 +31,3 @@ for link in anchor:
         textlink = link.get('href')
         links.add(link)
         print(textlink)
-# print(anchor)
