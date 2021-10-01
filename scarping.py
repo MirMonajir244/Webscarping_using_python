@@ -2,8 +2,10 @@
 # pip install html5lib
 # pip install requests
 import requests
+import pyttsx3
 from bs4 import BeautifulSoup
 url = input("Enter your full website link: ")
+pyttsx3.speak("You Have Entered a website please wait I am Working on it")
 
 # Get The HTML
 
